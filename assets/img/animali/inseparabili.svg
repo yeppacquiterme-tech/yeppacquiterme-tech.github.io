@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <title>Due pappagallini inseparabili</title>
+  <path d="M8 172 C70 160 150 160 212 170" stroke="#6b4a2f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="22" cy="160" rx="12" ry="5" transform="rotate(-30 22 160)" fill="#3f8a2a"/>
+  <ellipse cx="200" cy="158" rx="12" ry="5" transform="rotate(30 200 158)" fill="#3f8a2a"/>
+  <path d="M110 56 C96 45 88 35 96 27 C102 21 108 25 110 30 C112 25 118 21 124 27 C132 35 124 45 110 56Z" fill="#ffd1dc"/>
+  <!-- inseparabile di sinistra -->
+  <g>
+    <path d="M50 150 L28 196 L44 192 L58 156Z" fill="#3b8aca"/>
+    <ellipse cx="64" cy="120" rx="30" ry="40" transform="rotate(-10 64 120)" fill="#61ab30"/>
+    <path d="M46 104 C66 98 82 116 80 140 C70 152 50 152 42 140 C38 128 40 112 46 104Z" fill="#3f8a2a"/>
+    <circle cx="78" cy="72" r="24" fill="#f6a33c"/>
+    <circle cx="86" cy="81" r="8" fill="#ef6a4a" opacity=".8"/>
+    <path d="M99 64 C111 64 116 77 108 86 C104 82 100 78 98 73Z" fill="#e2463f"/>
+    <circle cx="86" cy="66" r="7" fill="#fff"/>
+    <circle cx="88" cy="66" r="4" fill="#20201f"/>
+    <path d="M60 158 v10 M72 158 v10" stroke="#e2463f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- inseparabile di destra -->
+  <g transform="translate(220 0) scale(-1 1)">
+    <path d="M50 150 L28 196 L44 192 L58 156Z" fill="#61ab30"/>
+    <ellipse cx="64" cy="120" rx="30" ry="40" transform="rotate(-10 64 120)" fill="#3b8aca"/>
+    <path d="M46 104 C66 98 82 116 80 140 C70 152 50 152 42 140 C38 128 40 112 46 104Z" fill="#2c6fa8"/>
+    <circle cx="78" cy="72" r="24" fill="#f6d23e"/>
+    <circle cx="86" cy="81" r="8" fill="#f39a2e" opacity=".8"/>
+    <path d="M99 64 C111 64 116 77 108 86 C104 82 100 78 98 73Z" fill="#e2463f"/>
+    <circle cx="86" cy="66" r="7" fill="#fff"/>
+    <circle cx="88" cy="66" r="4" fill="#20201f"/>
+    <path d="M60 158 v10 M72 158 v10" stroke="#e2463f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

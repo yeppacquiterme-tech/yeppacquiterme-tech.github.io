@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Tigre</title>
+  <circle cx="48" cy="52" r="24" fill="#f39a2e"/>
+  <circle cx="152" cy="52" r="24" fill="#f39a2e"/>
+  <circle cx="50" cy="55" r="12" fill="#2a1e17"/>
+  <circle cx="150" cy="55" r="12" fill="#2a1e17"/>
+  <path d="M100 38 C150 38 182 72 182 118 C182 160 146 188 100 188 C54 188 18 160 18 118 C18 72 50 38 100 38Z" fill="#f39a2e"/>
+  <path d="M18 118 C22 150 50 176 78 182 C70 166 60 150 40 140Z" fill="#fbe1b0"/>
+  <path d="M182 118 C178 150 150 176 122 182 C130 166 140 150 160 140Z" fill="#fbe1b0"/>
+  <ellipse cx="80" cy="150" rx="24" ry="18" fill="#fff4dc"/>
+  <ellipse cx="120" cy="150" rx="24" ry="18" fill="#fff4dc"/>
+  <ellipse cx="100" cy="172" rx="16" ry="10" fill="#fff4dc"/>
+  <g fill="#2a1e17">
+    <path d="M100 40 L91 72 L100 65 L109 72Z"/>
+    <path d="M76 45 C80 58 82 66 80 80 C73 69 69 59 65 50Z"/>
+    <path d="M124 45 C120 58 118 66 120 80 C127 69 131 59 135 50Z"/>
+    <path d="M20 98 C34 98 44 104 50 113 C40 111 30 111 21 115Z"/>
+    <path d="M23 128 C36 126 46 131 52 139 C42 137 34 137 27 141Z"/>
+    <path d="M180 98 C166 98 156 104 150 113 C160 111 170 111 179 115Z"/>
+    <path d="M177 128 C164 126 154 131 148 139 C158 137 166 137 173 141Z"/>
+    <circle cx="76" cy="147" r="2.2"/><circle cx="68" cy="152" r="2.2"/><circle cx="78" cy="156" r="2.2"/>
+    <circle cx="124" cy="147" r="2.2"/><circle cx="132" cy="152" r="2.2"/><circle cx="122" cy="156" r="2.2"/>
+  </g>
+  <ellipse cx="72" cy="109" rx="13" ry="11" fill="#fff4dc"/>
+  <ellipse cx="128" cy="109" rx="13" ry="11" fill="#fff4dc"/>
+  <circle cx="72" cy="110" r="8" fill="#f6d23e"/>
+  <circle cx="128" cy="110" r="8" fill="#f6d23e"/>
+  <ellipse cx="72" cy="110" rx="3" ry="6" fill="#2a1e17"/>
+  <ellipse cx="128" cy="110" rx="3" ry="6" fill="#2a1e17"/>
+  <g fill="none" stroke="#2a1e17" stroke-width="4" stroke-linecap="round">
+    <path d="M56 104 C64 95 80 95 89 106"/>
+    <path d="M144 104 C136 95 120 95 111 106"/>
+  </g>
+  <path d="M88 132 C88 126 112 126 112 132 C112 140 104 146 100 146 C96 146 88 140 88 132Z" fill="#e8798c"/>
+  <path d="M100 146 V156 M100 156 C94 164 84 164 80 158 M100 156 C106 164 116 164 120 158" fill="none" stroke="#2a1e17" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

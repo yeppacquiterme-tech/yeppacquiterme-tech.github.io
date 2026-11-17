@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Rana con germoglio</title>
+  <ellipse cx="38" cy="160" rx="30" ry="20" fill="#4f9a2a"/>
+  <ellipse cx="162" cy="160" rx="30" ry="20" fill="#4f9a2a"/>
+  <path d="M100 86 C100 74 102 66 106 60" stroke="#2f6e4a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M106 61 C106 43 122 33 140 35 C138 53 124 63 106 61Z" fill="#2f6e4a"/>
+  <path d="M101 72 C96 63 89 61 82 63 C86 71 93 74 101 72Z" fill="#3d8a4f"/>
+  <ellipse cx="100" cy="132" rx="70" ry="52" fill="#61ab30"/>
+  <circle cx="62" cy="80" r="26" fill="#61ab30"/>
+  <circle cx="138" cy="80" r="26" fill="#61ab30"/>
+  <circle cx="62" cy="78" r="17" fill="#fff"/>
+  <circle cx="138" cy="78" r="17" fill="#fff"/>
+  <circle cx="64" cy="80" r="9" fill="#1d2a20"/>
+  <circle cx="136" cy="80" r="9" fill="#1d2a20"/>
+  <circle cx="67" cy="76" r="3" fill="#fff"/>
+  <circle cx="139" cy="76" r="3" fill="#fff"/>
+  <ellipse cx="100" cy="152" rx="44" ry="30" fill="#d8ebb0"/>
+  <circle cx="40" cy="124" r="6" fill="#4f9a2a"/>
+  <circle cx="160" cy="126" r="5" fill="#4f9a2a"/>
+  <circle cx="152" cy="106" r="4" fill="#4f9a2a"/>
+  <circle cx="56" cy="118" r="8" fill="#ef8aa0" opacity=".8"/>
+  <circle cx="144" cy="118" r="8" fill="#ef8aa0" opacity=".8"/>
+  <path d="M68 118 C84 135 116 135 132 118" fill="none" stroke="#1d2a20" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="70" cy="182" rx="18" ry="7" fill="#4f9a2a"/>
+  <ellipse cx="130" cy="182" rx="18" ry="7" fill="#4f9a2a"/>
+</svg>
