@@ -426,14 +426,15 @@ h3 { font-size: 1.5rem; }
 
 .contatti-griglia {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.25rem;
 }
+.contatto .bottone-instagram { white-space: nowrap; margin-top: .4rem; }
 .contatto { display: grid; gap: .35rem; align-content: start; }
 .contatto .blocco__icona { margin-bottom: .5rem; }
 .contatto__valore {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1rem;
   overflow-wrap: anywhere;
 }
 
@@ -623,6 +624,30 @@ h3 { font-size: 1.5rem; }
 @media (max-width: 560px) { .mappa { aspect-ratio: 4 / 3; } }
 
 .piede__apri { font-weight: 800; justify-self: start; }
+
+/* pulsante Instagram, con i colori del logo */
+.bottone-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem 1.2rem;
+  border-radius: 999px;
+  background: var(--gradiente-logo);
+  color: var(--bianco) !important;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .2);
+  transition: transform .2s;
+}
+.bottone-instagram::before {
+  content: "";
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid currentColor;
+  border-radius: 30%;
+  background: radial-gradient(circle, transparent 28%, currentColor 30% 42%, transparent 44%);
+}
+.bottone-instagram:hover { transform: translateY(-2px); }
 
 .piede__logo {
   width: 200px;

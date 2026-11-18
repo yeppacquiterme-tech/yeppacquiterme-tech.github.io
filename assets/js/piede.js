@@ -11,11 +11,12 @@ const PIEDE = {
   associazione: "[nome dell'associazione]",
 
   // Indirizzo mostrato sotto la mappa
-  indirizzo: '[via e numero civico], 15011 Acqui Terme (AL)',
+  indirizzo: 'Piazza Don Dolermo 24, 15011 Acqui Terme (AL)',
 
-  // Cosa cercare su Google Maps: basta l'indirizzo completo,
-  // per esempio 'Via Roma 1, 15011 Acqui Terme AL'
-  ricercaMappa: 'Acqui Terme AL',
+  // Cosa cercare su Google Maps: basta l'indirizzo completo
+  ricercaMappa: 'Piazza Don Dolermo 24, 15011 Acqui Terme AL',
+
+  instagram: 'https://www.instagram.com/yepp_acquiterme/',
 
   pagine: [
     ['Home', 'index.html'],
@@ -50,6 +51,7 @@ const PIEDE = {
             <h3>Pagine</h3>
             <ul class="piede__pagine">${link}</ul>
           </nav>
+          <a class="bottone-instagram" href="${PIEDE.instagram}" target="_blank" rel="noopener">Seguici su Instagram</a>
         </div>
         <div class="piede__dove">
           <h3>Dove siamo</h3>
