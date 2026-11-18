@@ -21,7 +21,8 @@ assets/
     logo-yepp.svg   il logo
     animali/        tigre, inseparabili e rana dei progetti, tucano dei contatti, geco
     foglie/         le foglie in stile murale usate come decorazione
-    illustrazioni/  i tre murales del centro giovani ridisegnati in stile cartoon
+    illustrazioni/  le scene (animale tra le foglie) in cima a ogni pagina e in "Chi siamo"
+    icone/          le icone cartoon delle schede (libro, luna, dado, microfono...)
 ```
 
 ## Cosa c'è da completare
@@ -55,6 +56,15 @@ In fondo a ogni pagina progetto c'è la sezione dell'archivio con un blocco di e
 2. copia il blocco `<article class="scheda">…</article>` sopra la scheda "Presto qui";
 3. cambia data, titolo, testo e nome della foto;
 4. quando c'è almeno un evento vero, cancella la scheda "Presto qui".
+
+## Lo stile giungla
+
+Tutta la grafica è disegnata in stile cartoon, niente foto di repertorio:
+
+- in cima a ogni pagina c'è una scena con l'animale del progetto tra le foglie;
+- ogni sezione ha foglie che spuntano ai lati (le mette il CSS da solo, alternando i lati);
+- i titoli delle sezioni hanno due rametti ai lati;
+- le schede hanno un'icona disegnata su una foglia del colore del progetto: per usarne una basta `<img src="assets/img/icone/libro.svg" alt="">` dentro `<div class="blocco__icona">`.
 
 ## I colori
 
