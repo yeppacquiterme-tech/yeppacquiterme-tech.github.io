@@ -8,7 +8,8 @@
    ========================================================== */
 
 const PIEDE = {
-  associazione: 'Fondazione Aurora', //[nome dell'associazione]
+   // fondazione che ci ha voluti
+  associazione: 'Fondazione Aurora',
 
   // Indirizzo mostrato sotto la mappa
   indirizzo: 'Piazza Don Dolermo 24, 15011 Acqui Terme (AL)',
