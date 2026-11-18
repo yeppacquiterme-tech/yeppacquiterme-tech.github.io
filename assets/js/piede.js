@@ -8,7 +8,7 @@
    ========================================================== */
 
 const PIEDE = {
-  associazione: 'Yepp Acqui Terme', //[nome dell'associazione]
+  associazione: 'Fondazione Aurora', //[nome dell'associazione]
 
   // Indirizzo mostrato sotto la mappa
   indirizzo: 'Piazza Don Dolermo 24, 15011 Acqui Terme (AL)',
