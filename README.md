@@ -7,16 +7,18 @@ Il sito del gruppo YEPP di Acqui Terme, con i tre progetti: **Jungle** (aula stu
 ## Com'è fatto
 
 ```
-index.html          home: logo, i tre progetti, chi siamo, contatti
+index.html          home: logo, i tre progetti, chi siamo
 jungle.html         pagina di Jungle
 love-therapy.html   pagina di Love Therapy
 ecologica.html      pagina di EcoLogica
+contatti.html       pagina dei contatti
 assets/
   css/stile.css     colori, caratteri e impaginazione di tutto il sito
   js/sito.js        menu del telefono e animaletti sui dispositivi touch
+  js/piede.js       il piè di pagina di TUTTE le pagine, con la mappa
   img/
     logo-yepp.svg   il logo
-    animali/        tigre, inseparabili e rana dei tre progetti
+    animali/        tigre, inseparabili e rana dei progetti, tucano dei contatti
     foglie/         le foglie in stile murale usate come decorazione
     murale-*.jpg    le foto dei murales del centro giovani
 ```
@@ -25,7 +27,17 @@ assets/
 
 Tutti i testi ancora da scrivere sono tra parentesi quadre e nel sito si vedono **evidenziati a strisce gialle**, per esempio `[nome dell'associazione]` o `[indirizzo email]`. Basta cercare `da-completare` nei file HTML e sostituire il segnaposto con il testo vero, togliendo anche lo `<span class="da-completare">` che lo circonda.
 
-I contatti nel piè di pagina sono ripetuti in tutte e quattro le pagine: vanno aggiornati in ognuna.
+## Il piè di pagina e la mappa
+
+Il piè di pagina è uno solo per tutto il sito: lo disegna `assets/js/piede.js`, e ogni pagina lo richiama con una riga in fondo:
+
+```html
+<script src="assets/js/piede.js"></script>
+```
+
+In cima a `piede.js` ci sono le impostazioni da cambiare: nome dell'associazione, indirizzo e cosa cercare su Google Maps (`ricercaMappa`, basta l'indirizzo completo). Una modifica lì cambia il footer di tutte le pagine. Una pagina nuova deve solo includere quella riga.
+
+I contatti veri (email, social, orari) stanno nella pagina `contatti.html`.
 
 ## Aggiungere un progetto passato
 

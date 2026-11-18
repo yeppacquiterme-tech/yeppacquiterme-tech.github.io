@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <title>Tucano</title>
+  <path d="M14 176 C80 166 150 168 212 180" stroke="#6b4a2f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="30" cy="164" rx="13" ry="5" transform="rotate(-25 30 164)" fill="#3f8a2a"/>
+  <path d="M70 160 L56 198 L82 198 L90 162Z" fill="#1d2a2a"/>
+  <ellipse cx="86" cy="164" rx="13" ry="6" fill="#e2463f"/>
+  <ellipse cx="88" cy="118" rx="40" ry="54" transform="rotate(14 88 118)" fill="#1d2a2a"/>
+  <path d="M62 96 C86 92 102 126 92 158 C74 160 58 138 62 96Z" fill="#2c4444"/>
+  <circle cx="104" cy="66" r="32" fill="#1d2a2a"/>
+  <path d="M104 74 C122 70 134 82 130 100 C126 114 112 120 100 114 C104 100 104 88 104 74Z" fill="#f6d23e"/>
+  <path d="M100 114 C112 120 120 118 126 110 C122 124 110 128 98 122Z" fill="#fbe1b0"/>
+  <path d="M128 52 C154 36 196 42 208 70 C186 78 156 84 130 82Z" fill="#f07f3c"/>
+  <path d="M128 52 C154 36 196 42 208 70 C186 62 156 58 131 64Z" fill="#f6a33c"/>
+  <path d="M196 56 C203 60 207 65 208 70 C202 72 197 69 194 63Z" fill="#e2463f"/>
+  <path d="M131 72 C156 74 182 74 206 71" stroke="#c45a22" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="112" cy="58" r="12" fill="#3b8aca"/>
+  <circle cx="113" cy="58" r="6" fill="#141c1c"/>
+  <circle cx="115" cy="56" r="2" fill="#fff"/>
+  <path d="M84 168 v10 M96 168 v10" stroke="#3b8aca" stroke-width="4" stroke-linecap="round"/>
+</svg>
