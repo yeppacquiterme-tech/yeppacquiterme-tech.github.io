@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Geco</title>
+  <g stroke="#f6d23e" stroke-linecap="round" fill="none">
+    <path d="M100 130 C100 152 120 164 112 182 C106 194 88 194 84 184" stroke-width="13"/>
+    <path d="M84 80 L60 64" stroke-width="10"/>
+    <path d="M116 80 L140 64" stroke-width="10"/>
+    <path d="M85 120 L60 138" stroke-width="10"/>
+    <path d="M115 120 L140 138" stroke-width="10"/>
+  </g>
+  <g fill="#f6d23e">
+    <circle cx="56" cy="60" r="5"/><circle cx="50" cy="66" r="4.5"/><circle cx="60" cy="54" r="4.5"/>
+    <circle cx="144" cy="60" r="5"/><circle cx="150" cy="66" r="4.5"/><circle cx="140" cy="54" r="4.5"/>
+    <circle cx="56" cy="142" r="5"/><circle cx="50" cy="136" r="4.5"/><circle cx="60" cy="148" r="4.5"/>
+    <circle cx="144" cy="142" r="5"/><circle cx="150" cy="136" r="4.5"/><circle cx="140" cy="148" r="4.5"/>
+    <ellipse cx="100" cy="100" rx="22" ry="38"/>
+    <ellipse cx="100" cy="54" rx="23" ry="21"/>
+  </g>
+  <g fill="#2a1e17">
+    <circle cx="92" cy="88" r="3.5"/><circle cx="108" cy="96" r="4"/><circle cx="95" cy="110" r="3"/>
+    <circle cx="106" cy="122" r="3.5"/><circle cx="102" cy="146" r="3"/><circle cx="114" cy="166" r="3"/>
+    <circle cx="96" cy="186" r="2.5"/><circle cx="110" cy="76" r="2.5"/>
+  </g>
+  <circle cx="85" cy="46" r="8" fill="#fff"/>
+  <circle cx="115" cy="46" r="8" fill="#fff"/>
+  <circle cx="86" cy="47" r="4" fill="#1d2a20"/>
+  <circle cx="114" cy="47" r="4" fill="#1d2a20"/>
+  <path d="M90 62 C96 67 104 67 110 62" fill="none" stroke="#2a1e17" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

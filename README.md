@@ -19,9 +19,9 @@ assets/
   js/piede.js       il piè di pagina di TUTTE le pagine, con la mappa
   img/
     logo-yepp.svg   il logo
-    animali/        tigre, inseparabili e rana dei progetti, tucano dei contatti
+    animali/        tigre, inseparabili e rana dei progetti, tucano dei contatti, geco
     foglie/         le foglie in stile murale usate come decorazione
-    murale-*.jpg    le foto dei murales del centro giovani
+    illustrazioni/  i tre murales del centro giovani ridisegnati in stile cartoon
 ```
 
 ## Cosa c'è da completare
