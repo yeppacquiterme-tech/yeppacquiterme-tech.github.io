@@ -8,7 +8,7 @@
    ========================================================== */
 
 const PIEDE = {
-  associazione: "[nome dell'associazione]",
+  associazione: "Yepp Italia", //[nome dell'associazione]
 
   // Indirizzo mostrato sotto la mappa
   indirizzo: 'Piazza Don Dolermo 24, 15011 Acqui Terme (AL)',
