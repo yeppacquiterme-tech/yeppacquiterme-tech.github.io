@@ -14,7 +14,8 @@ ecologica.html      pagina di EcoLogica
 contatti.html       pagina dei contatti
 assets/
   css/stile.css     colori, caratteri e impaginazione di tutto il sito
-  js/sito.js        menu del telefono e animaletti sui dispositivi touch
+  js/sito.js        apertura del menu sul telefono e animaletti sui dispositivi touch
+  js/testata.js     il menu in alto di TUTTE le pagine
   js/piede.js       il piè di pagina di TUTTE le pagine, con la mappa
   img/
     logo-yepp.svg   il logo
@@ -27,15 +28,22 @@ assets/
 
 Tutti i testi ancora da scrivere sono tra parentesi quadre e nel sito si vedono **evidenziati a strisce gialle**, per esempio `[nome dell'associazione]` o `[indirizzo email]`. Basta cercare `da-completare` nei file HTML e sostituire il segnaposto con il testo vero, togliendo anche lo `<span class="da-completare">` che lo circonda.
 
-## Il piè di pagina e la mappa
+## Menu e piè di pagina
 
-Il piè di pagina è uno solo per tutto il sito: lo disegna `assets/js/piede.js`, e ogni pagina lo richiama con una riga in fondo:
+Menu in alto e piè di pagina sono uno solo per tutto il sito. Ogni pagina li richiama con due righe, una subito dopo `<body>` e una subito prima di `</body>`:
 
 ```html
-<script src="assets/js/piede.js"></script>
+<body>
+  <script src="assets/js/testata.js"></script>
+  ...contenuto della pagina...
+  <script src="assets/js/piede.js"></script>
+</body>
 ```
 
-In cima a `piede.js` ci sono le impostazioni da cambiare: nome dell'associazione, indirizzo e cosa cercare su Google Maps (`ricercaMappa`, basta l'indirizzo completo). Una modifica lì cambia il footer di tutte le pagine. Una pagina nuova deve solo includere quella riga.
+- **`testata.js`**: in cima c'è l'elenco delle voci del menu. Per aggiungere una pagina al menu basta aggiungere una riga lì. La voce della pagina in cui ci si trova si evidenzia da sola.
+- **`piede.js`**: in cima ci sono nome dell'associazione, indirizzo, cosa cercare su Google Maps (`ricercaMappa`, basta l'indirizzo completo) e link Instagram.
+
+Una modifica in uno di questi due file cambia tutte le pagine. Una pagina nuova deve solo includere le due righe.
 
 I contatti veri (email, social, orari) stanno nella pagina `contatti.html`.
 
