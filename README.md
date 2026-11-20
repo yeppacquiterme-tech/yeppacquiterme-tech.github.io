@@ -42,7 +42,11 @@ Menu in alto e piè di pagina sono uno solo per tutto il sito. Ogni pagina li ri
 ```
 
 - **`testata.js`**: in cima c'è l'elenco delle voci del menu. Per aggiungere una pagina al menu basta aggiungere una riga lì. La voce della pagina in cui ci si trova si evidenzia da sola.
-- **`piede.js`**: in cima ci sono nome dell'associazione, indirizzo, cosa cercare su Google Maps (`ricercaMappa`, basta l'indirizzo completo) e link Instagram.
+- **`piede.js`**: in cima ci sono nome dell'associazione, indirizzo, cosa cercare su Google Maps (`ricercaMappa`, basta l'indirizzo completo), link Instagram, link della community WhatsApp e l'elenco di chi ci sostiene. Da lì vengono anche il pulsante WhatsApp della pagina Contatti e i loghi della home (sezione "Chi ci sostiene"): basta cambiare una volta.
+
+### Loghi di chi ci sostiene
+
+Gli originali stanno in `assets/img/loghi/`, le versioni leggere usate dal sito in `assets/img/loghi/web/` (ritagliate, alte al massimo 240 pixel). Per aggiungere un logo: mettere un PNG leggero in `web/` e aggiungere una riga all'elenco `sostenitori` in `piede.js`.
 
 Una modifica in uno di questi due file cambia tutte le pagine. Una pagina nuova deve solo includere le due righe.
 
