@@ -22,7 +22,7 @@ const PIEDE = {
   // Link d'invito della community WhatsApp, del tipo
   // 'https://chat.whatsapp.com/...'. Finché è vuoto, sul sito
   // compare un segnaposto giallo al posto del pulsante.
-  whatsapp: '',
+  whatsapp: 'https://chat.whatsapp.com/DrVZSq2NGnF6IJlPnNe8wJ',
 
   // Chi ci sostiene: loghi in home (grandi) e nel footer (piccoli).
   // File in assets/img/loghi/web/. "sito" è facoltativo: se c'è,
