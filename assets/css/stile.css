@@ -747,14 +747,15 @@ main > .sezione:nth-of-type(even)::after {
 
 /* loghi di chi ci sostiene: in home, direttamente sul fondo crema */
 .loghi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
   align-items: center;
-  gap: clamp(1.5rem, 4vw, 3rem) clamp(2rem, 5vw, 4rem);
-  max-width: 1000px;
+  gap: clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 4vw, 3rem);
+  max-width: 900px;
   margin-inline: auto;
 }
+@media (max-width: 760px) { .loghi { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .logo-tessera {
   display: grid;
   place-items: center;
@@ -771,6 +772,39 @@ main > .sezione:nth-of-type(even)::after {
   .logo-tessera { height: 80px; }
   .logo-tessera img { max-height: 66px; max-width: 150px; }
 }
+
+/* partner di un singolo progetto (es. Impulsi in Love Therapy) */
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .35rem;
+  margin-top: 1.5rem;
+}
+.partner__etichetta {
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c, var(--inchiostro-tenue));
+}
+.partner__etichetta::before,
+.partner__etichetta::after {
+  content: "";
+  display: inline-block;
+  width: 14.4px;
+  height: 12.8px;
+  margin: 0 .5em;
+  vertical-align: -1px;
+  background: currentColor;
+  clip-path: path("M7.2 12.8 C3 9.6 0 7 0 3.9 C0 1.6 1.8 0 3.8 0 C5.2 0 6.4 .8 7.2 2 C8 .8 9.2 0 10.6 0 C12.6 0 14.4 1.6 14.4 3.9 C14.4 7 11.4 9.6 7.2 12.8Z");
+}
+.partner__logo {
+  width: auto;
+  height: clamp(80px, 12vw, 110px);
+  transition: transform .3s cubic-bezier(.34, 1.56, .64, 1);
+}
+.partner__logo:hover { transform: rotate(-3deg) scale(1.05); }
 
 /* loghi piccoli nel footer: una fascia crema continua, senza riquadri */
 .piede__sostenitori {

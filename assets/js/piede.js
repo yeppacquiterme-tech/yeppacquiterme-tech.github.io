@@ -34,7 +34,7 @@ const PIEDE = {
     { nome: 'Fondazione Cassa di Risparmio di Alessandria', logo: 'fondazione-cr-alessandria.png', sito: '' },
     { nome: 'Città di Acqui Terme', logo: 'citta-di-acqui-terme.png', sito: '' },
     { nome: "ASCA, Associazione Socio-Assistenziale dei Comuni dell'Acquese", logo: 'asca.png', sito: '' },
-    { nome: 'Impulsi', logo: 'impulsi.png', sito: '' },
+    // Impulsi non è uno sponsor diretto: il suo logo sta solo nella pagina Love Therapy
   ],
 
   pagine: [
