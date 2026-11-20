@@ -723,6 +723,79 @@ main > .sezione:nth-of-type(even)::after {
 }
 .bottone-instagram:hover { transform: translateY(-2px); }
 
+/* pulsante della community WhatsApp */
+.bottone-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .5rem 1.15rem .5rem .6rem;
+  border-radius: 999px;
+  background: #128c4a;
+  color: var(--bianco) !important;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .2);
+  transition: transform .2s;
+}
+.bottone-whatsapp img { width: 1.6em; height: 1.6em; }
+.bottone-whatsapp:hover { transform: translateY(-2px); }
+
+.piede__social { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+
+/* loghi di chi ci sostiene: in home, su tessere bianche */
+.loghi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.logo-tessera {
+  flex: 0 1 calc((100% - 3rem) / 4);
+  min-width: 140px;
+  height: 140px;
+  display: grid;
+  place-items: center;
+  padding: 1rem 1.25rem;
+  background: var(--bianco);
+  border: 2px solid var(--crema-scura);
+  border-radius: var(--raggio);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.logo-tessera img {
+  max-width: 100%;
+  max-height: 96px;
+  object-fit: contain;
+}
+.logo-tessera:hover { transform: translateY(-4px) rotate(-1deg); box-shadow: 0 8px 0 var(--salvia); }
+@media (max-width: 760px) {
+  .logo-tessera { flex-basis: calc((100% - 1rem) / 2); height: 110px; }
+  .logo-tessera img { max-height: 72px; }
+}
+
+/* loghi piccoli nel footer */
+.piede__sostenitori {
+  position: relative;
+  z-index: 1;
+  margin-top: 2.5rem;
+  display: grid;
+  gap: .75rem;
+}
+.piede__sostenitori ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.piede__logo-sostenitore {
+  display: grid;
+  place-items: center;
+  height: 52px;
+  padding: 6px 12px;
+  background: var(--bianco);
+  border-radius: 12px;
+}
+.piede__logo-sostenitore img { max-height: 38px; max-width: 120px; object-fit: contain; }
+
 .piede__logo {
   width: 200px;
   background: var(--crema);
